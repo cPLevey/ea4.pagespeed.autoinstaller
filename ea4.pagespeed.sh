@@ -58,5 +58,5 @@ if [ -f /root/rpmbuild/RPMS/x86_64/ea-apache24-mod_pagespeed-latest-stable.x86_6
 				else
 					echo "RPM didnt install. FAIL";
 			fi
-	echo "RPM build failed. FAIL";
+	else echo "RPM build failed. FAIL";
 fi
